@@ -1,0 +1,102 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 100px;
+  background-color: #3a4ae1;
+  background-size: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 70px;
+  height: 10vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 400px;
+}
+
+.edu-logo {
+  width: 90px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.icone {
+  padding: 40px;
+  width: 300px;
+  position: absolute;
+  center: 100px;
+  left: 30px;
+}
+
+#formNota {
+  font-family: "Roboto Mono", monospace;
+  font-size: 40px;
+  color: #f4f4f9;
+  height: 600px;
+  background-color: #0e1236;
+  width: 300px;
+  padding: 10px;
+  height: auto;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 400px;
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+button {
+  background: purple;
+  color: white;
+  height: auto;
+  width: auto;
+  font: bold 15px arial, sans-serif;
+  text-shadow: none;
+}
+
+.inputnota {
+  font-size: 50px;
+  width: 80px;
+}
+
+.custom-shadow {
+  filter: drop-shadow(0 0 0.5rem black);
+}
+.img-filter {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 0.5rem white);
+}
+.alert {
+  padding: 20px;
+  background-color: #8400ff; /* purple */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}

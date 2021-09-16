@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <title> Calculadora de média de Notas</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Calculadora de média</h1>
+    <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+    </p>
+
+    <img src="https://raw.githubusercontent.com/EduPraseres/CalculadoraDeMedia/main/edupraseres.png" class="page-logo" alt="">
+  </div>
+  <a href="https://github.com/EduPraseres/" target="_blank">
+    <img src="https://raw.githubusercontent.com/EduPraseres/CalculadoraDeMedia/main/logoerp.png" alt="" class="edu-logo">
+  </a>
+  <p>
+    <img src="https://raw.githubusercontent.com/EduPraseres/CalculadoraDeMedia/main/avaliacao.png" class="icone" alt="">
+    </div>
+    </a>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-6" id="imagemNota">
+
+        <div id="formNota" class="col-sm-6 custom-bg custom-shadow">
+          Nota 1: <input class="inputnota" type="number" id="nota1" min="0" max="10" step=".5"></input><br>
+          Nota 2: <input class="inputnota" type="number" id="nota2" min="0" max="10" step=".5"></input><br>
+          Nota 3: <input class="inputnota" type="number" id="nota3" min="0" max="10" step=".5"></input><br>
+          Nota 4: <input class="inputnota" type="number" id="nota4" min="0" max="10" step=".5"></input><br><br>
+          <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';"></span>
+            <p id="resultado"></p>
+          </div>
+
+          <button class="button" onclick="calcularMedia()">Calcular Média</button>
+        </div>
+
+</body>
+
+</html>
